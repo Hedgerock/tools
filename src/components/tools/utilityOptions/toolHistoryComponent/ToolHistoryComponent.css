@@ -1,0 +1,32 @@
+.history-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 79.5%;
+    overflow-y: auto;
+    gap: .3rem;
+    padding: .4rem 0
+}
+
+.history-list_constant {
+    max-height: 88.5%;
+}
+
+.history-info-box {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.history-info-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .3rem;
+    padding: 0 .3rem;
+}
+
+.history-info-box-header__vale {
+    display: flex;
+    align-items: center;
+    gap: .2rem
+}

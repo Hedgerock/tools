@@ -1,0 +1,11 @@
+.tool-header-box {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    border-bottom: 2px solid white;
+}
+
+.tool-header-box__history-btn {
+    margin-left: auto;
+}

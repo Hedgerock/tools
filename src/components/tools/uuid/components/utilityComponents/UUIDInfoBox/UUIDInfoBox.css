@@ -1,0 +1,28 @@
+.uuid-content-info-box {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.uuid-content-info-box-element {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+
+    border: 2px solid white;
+    padding: .3rem;
+    border-radius: .2rem;
+}
+
+.uuid-content-info-box-element__value {
+    padding: .3rem;
+    border-radius: .4rem;
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}

@@ -1,0 +1,78 @@
+.tool-skeleton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid silver;
+    border-radius: 1rem;
+
+    width: 375px;
+    height: 410px;
+    overflow: hidden;
+
+    background: #242424;
+
+    transition: width .2s ease-out, height .2s ease-out;
+}
+
+.tool-skeleton_expanded {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
+}
+
+.tool-skeleton_hidden {
+    height: 9%;
+}
+
+.tool-skeleton-header,
+.tool-skeleton-footer {
+    display: flex;
+    background: #535bf2;
+    padding: .5rem;
+    width: 100%;
+    align-items: center;
+    min-height: 3rem;
+}
+
+.tool-skeleton-header {
+    justify-content: center;
+    border-bottom: 2px solid white;
+
+    position: relative;
+
+    min-height: 5rem;
+
+    padding-top: 2rem
+}
+
+.tool-skeleton-header__title {
+    font-size: 1.3rem;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    max-height: 2rem;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tool-skeleton-main-content {
+    flex: 1;
+    width: 100%;
+
+    overflow: hidden;
+
+    padding: .3rem;
+}
+
+.tool-skeleton-footer {
+    align-self: flex-end;
+    border-top: 2px solid white;
+
+    min-height: 3rem;
+}

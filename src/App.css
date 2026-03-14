@@ -1,0 +1,55 @@
+.application-skeleton {
+    display: flex;
+
+    flex-direction: column;
+    width: 100lvw;
+    height: 100lvh;
+
+    max-width: 100lvw;
+    max-height: 100lvh;
+
+    overflow: hidden;
+
+    justify-content: space-between;
+}
+
+.application-skeleton-main {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    flex-wrap: wrap;
+}
+
+.tools-icons {
+    background: #181818;
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.tools-icons__tool-button {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: .8rem;
+
+    border: 3px solid #535bf2;
+}
+
+.tools-icons__tool-button_active {
+    background: white;
+    color: #242424;
+}

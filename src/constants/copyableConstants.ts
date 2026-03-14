@@ -1,0 +1,1 @@
+export const ALT_TAG_VALUE: React.ElementType = "div";
